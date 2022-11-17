@@ -1101,4 +1101,18 @@ using namespace std;
 //return arr[0];
 //}
 
+// Key Pair
 
+// bool hasArrayTwoCandidates(int arr[], int n, int x)
+// {
+// 	    set<int> s;
+// 	    for(int i=0;i<n;i++)
+// 	    {
+// 	        if(s.find(x-arr[i])!=s.end())
+// 	        {
+// 	            return true;
+// 	        }
+// 	        s.insert(arr[i]);
+// 	    }
+// 	    return false;
+// 	}
