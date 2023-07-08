@@ -1116,3 +1116,28 @@ using namespace std;
 // 	    }
 // 	    return false;
 // 	}
+
+// Smalles positive missing number
+
+// int missingNumber(int arr[], int n) 
+// { 
+//     bool isPresent[n] = {false};
+//         for(int i=0;i<n;i++)
+//         {
+//             if(arr[i]>0 && arr[i]<=n)
+//             {
+//                 isPresent[arr[i]-1] = true;
+                
+//             }
+//         }
+//         for(int i=0;i<n;i++)
+//         {
+//             if(!isPresent[i])
+//             {
+//                 return i+1;
+//                 break;
+//             }
+            
+//         }
+//         return n+1;
+// } 
