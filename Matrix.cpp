@@ -409,3 +409,27 @@ using namespace std;
 //            }
 //            return ones[ones.size()-1].second;
 //}
+
+// Transponse of matrix
+
+// void transpose(vector<vector<int> >& matrix, int n)
+// { 
+//     vector<vector<int>> ans;
+//     for(int i=0;i<n;i++)
+//     {
+//         vector<int> temp;
+//         for(int j=0;j<n;j++)
+//         {
+//             temp.push_back(matrix[j][i]);
+//         }
+//         ans.push_back(temp);
+//     }
+//     for(int i=0;i<n;i++)
+//     {
+//         for(int j=0;j<n;j++)
+//         {
+//             matrix[i][j]=ans[i][j];
+//         }
+//     }
+    
+// }
