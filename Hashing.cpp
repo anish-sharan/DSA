@@ -393,3 +393,21 @@ using namespace std;
 //    }
 //    return *iter;
 //}
+
+// Unique Number of Occurrences
+
+// bool isFrequencyUnique(int n, int arr[])
+// {
+//     map<int,int> mp;
+//     set<int> s;
+    
+//     for(int i=0;i<n;i++)
+//     {
+//         mp[arr[i]]++;
+//     }
+//     for(auto it:mp)
+//     {
+//         s.insert(it.second);
+//     }
+//     return s.size() == mp.size();
+// }
