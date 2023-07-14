@@ -236,3 +236,28 @@ void printStack(stack<int> s)
 //    }
 //    return st.top();
 //}
+
+// Delete middle element of a stack
+// void deleteMid(stack<int>&s, int sizeOfStack)
+// {
+//     int mid = sizeOfStack/2;
+//     vector<int> v;
+//     while(!s.empty())
+//     {
+//         v.push_back(s.top());
+//         s.pop();
+        
+        
+//         if(mid == 1)
+//         {
+//             s.pop();
+//             break;
+//         }
+//         mid--;
+//     }
+//     reverse(v.begin(),v.end());
+//     for(auto it:v)
+//     {
+//         s.push(it);
+//     }
+// }
