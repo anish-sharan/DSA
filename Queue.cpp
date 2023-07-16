@@ -97,3 +97,22 @@ void printQ(queue<int> t)
 //        }
 //        return ans;
 //}
+
+// Queue reversal
+
+// queue<int> rev(queue<int> q)
+// {
+//     stack<int> s;
+//     queue<int> ans;
+//     while(!q.empty())
+//     {
+//         s.push(q.front());
+//         q.pop();
+//     }
+//     while(!s.empty())
+//     {
+//         ans.push(s.top());
+//         s.pop();
+//     }
+//     return ans;
+// }
