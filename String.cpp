@@ -1047,3 +1047,22 @@ using namespace std;
 //    }
 //    return ans;
 //}
+
+// Non Repeating Character
+
+// char nonrepeatingCharacter(string S)
+// {
+//     map<char,int> mp;
+//     for(int i=0;i<S.length();i++)
+//     {
+//         mp[S[i]]++;
+//     }
+//     for(int i=0;i<S.length();i++)
+//     {
+//         if(mp[S[i]] == 1)
+//         {
+//             return S[i];
+//         }
+//     }
+//     return '$';
+// }
