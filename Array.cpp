@@ -1141,3 +1141,38 @@ using namespace std;
 //         }
 //         return n+1;
 // } 
+
+// Leader in array
+
+// vector<int> leaders(int a[], int n){
+//     vector<int> result;
+//     int maxTillIter = a[n-1];
+    
+//     for(int i=n-1;i>=0;i--)
+//     {
+//         if(a[i]>=maxTillIter)
+//         {
+//             result.push_back(a[i]);
+//         }
+//             maxTillIter = max(maxTillIter,a[i]);
+        
+//     }
+
+    
+//     reverse(result.begin(),result.end());
+    
+//     return result;
+    
+// }
+
+
+
+
+
+
+
+
+
+
+
+
