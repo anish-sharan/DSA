@@ -1066,3 +1066,22 @@ using namespace std;
 //     }
 //     return '$';
 // }
+
+// Find first repeated character
+
+// string firstRepChar(string s)
+// {
+//     string res = "-1";
+//     set<int> st;
+    
+//     for(int i=0;i<s.length();i++)
+//     {
+//         if(st.find(s[i]) != st.end())
+//         {
+//            res = s[i];
+//            break;
+//         }
+//         st.insert(s[i]);
+//     }
+    return res;
+}
