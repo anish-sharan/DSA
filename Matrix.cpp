@@ -433,3 +433,40 @@ using namespace std;
 //     }
     
 // }
+
+// Unique rows in boolean matrix
+
+// vector<int> stringToVector(string s)
+// {
+//     vector<int> a;
+//     for(int i=0;i<s.length();i++)
+//     {
+//         int in = int(s[i]);
+//         a.push_back(in-48);
+//     }
+//     return a;
+// }
+// vector<vector<int>> uniqueRow(int M[MAX][MAX],int row,int col)
+// {
+//     vector<vector<int>> res;
+//     set<string> s;
+
+//     for(int i=0;i<row;i++)
+//     {
+//         string stringToAdd = "";
+//         for(int j=0;j<col;j++)
+//         {
+//             stringToAdd+=to_string(M[i][j]);
+//         }
+//         if(s.find(stringToAdd)!=s.end())
+//         {
+//             continue;
+//         }
+//         else
+//         {
+//             res.push_back(stringToVector(stringToAdd));
+//             s.insert(stringToAdd);
+//         }
+//     }
+//     return res;
+// }
