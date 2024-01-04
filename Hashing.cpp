@@ -411,3 +411,21 @@ using namespace std;
 //     }
 //     return s.size() == mp.size();
 // }
+
+// Find element occuring once when all other are present thrice
+
+// int singleElement(int arr[] ,int N) 
+// {
+//        map<int,int> mp;
+//        for(int i=0;i<N;i++)
+//        {
+//            mp[arr[i]]++;
+//        }
+//        for(auto it:mp)
+//        {
+//            if(it.second==1)
+//            {
+//                 return it.first;   
+//            }
+//        }
+//     }
